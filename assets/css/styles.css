@@ -1,0 +1,39 @@
+/* VARIABLES */
+:root {
+    --color-orange: #FF6A63;
+    --color-blue: #4648E3;
+    --color-grey: #F0F2F7;
+}
+
+
+/* UTILS */
+.color-orange {
+    color: var(--color-orange);
+}
+.color-blue {
+    color: var(--color-blue);
+}
+.bg-blue {
+    background-color: var(--color-blue);
+}
+
+.bg-grey {
+    background-color: var(--color-grey);
+}
+
+.font-titan {
+    font-family: "Titan One", sans-serif;
+}
+
+#home {
+    height: 800px;
+}
+
+.bg-holder {
+    background-image: url("/assets/img/ckc/hero.png");
+}
+
+.logo {
+    width: 200px;
+}
+
