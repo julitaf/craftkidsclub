@@ -25,6 +25,8 @@
     font-family: "Titan One", sans-serif;
 }
 
+/* HOME STYLES */
+
 #home {
     height: 800px;
 }
@@ -35,5 +37,9 @@
 
 .logo {
     width: 200px;
+}
+
+.bg-holder-2 {
+    background-image: url("/assets/img/ckc/hero-detalle2.jpg");
 }
 
