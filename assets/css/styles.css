@@ -1,8 +1,9 @@
 /* VARIABLES */
 :root {
-    --color-orange: #FF6A63;
-    --color-blue: #4648E3;
-    --color-grey: #F0F2F7;
+    --color-orange: #EB5832;
+    --color-blue: #6BBAAD;
+    --color-grey: #daeae7;
+    --color-yellow: #eeb951;
 }
 
 
@@ -13,6 +14,11 @@
 .color-blue {
     color: var(--color-blue);
 }
+
+.color-yellow {
+    color:var(--color-yellow);
+}
+
 .bg-blue {
     background-color: var(--color-blue);
 }
@@ -25,6 +31,7 @@
     font-family: "Titan One", sans-serif;
 }
 
+
 /* HOME STYLES */
 
 #home {
@@ -32,7 +39,7 @@
 }
 
 .bg-holder {
-    background-image: url("/assets/img/ckc/hero.png");
+    background-image: url("/assets/img/ckc/hero-homeA.jpg");
 }
 
 .logo {
@@ -40,6 +47,16 @@
 }
 
 .bg-holder-2 {
-    background-image: url("/assets/img/ckc/hero-detalle2.jpg");
+    background-image: url("/assets/img/ckc/hero-2detalleB.jpg");
 }
+
+.btn-galeria {
+    width: 140px;
+}
+
+#kits {
+    background-image: url("/assets/img/ckc/bg-kits.jpg");
+    background-size: cover;
+}
+
 
